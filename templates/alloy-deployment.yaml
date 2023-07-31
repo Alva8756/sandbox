@@ -20,12 +20,8 @@ spec:
           command: [
            "alloy",
            "outofband",
-           "--store",
-           "serverservice",
-           "--controller-mode",
-           "--config",
-           "/etc/alloy/config.yaml",
-           "--enable-pprof",
+           "--asset-source",
+           "serverService",
           ]
           volumeMounts:
             - name: config-volume
